@@ -1,0 +1,10 @@
+<h1>Stupid Coaching</h1>
+<div class="post question border-start border-secondary-subtle border-3">
+  <%= @ask %>
+  <p><em>-You</em></p>
+</div>
+<div class="post answer border-start border-secondary-subtle border-3">
+  <b><%= @answer %></b>
+  <p><em>-Your coach</em></p>
+</div>
+<%= link_to "Ask a new question", ask_path, class: 'link' %>

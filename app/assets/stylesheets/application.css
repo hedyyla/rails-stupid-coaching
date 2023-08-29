@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+@import url("post.css");
+@import url("link.css");
+
+
+ .container {
+  margin: 16px;
+ }
